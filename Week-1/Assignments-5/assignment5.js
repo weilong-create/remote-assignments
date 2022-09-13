@@ -26,8 +26,6 @@ function groupByKey(input){
         }
     }
     return con
-
-
 }
 
 let input2=[
