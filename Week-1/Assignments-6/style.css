@@ -3,7 +3,6 @@
 	background-color:#ebebff;
     width: 100%;
     display:flex;
-    justify-content:center;
 }
 
 .item1{
@@ -17,7 +16,7 @@
 }
 .item2{
     font-size: 15px;
-    margin-left: auto;
+    /* margin-left: auto; */
     color:black;
     padding: 5px;
     /* padding-right: 10px; */
