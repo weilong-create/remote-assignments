@@ -22,15 +22,15 @@
     padding: 5px;
     /* padding-right: 10px; */
     margin:10px;
-    border-radius: 3px;
  }
 
 .p1{
     background-color: #ebffff;
     text-align: center;
     /* 也可以用padding寫法讓高度置中 */
-    line-height: 200px;
-    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 0px;
     margin-bottom: 0PX;
