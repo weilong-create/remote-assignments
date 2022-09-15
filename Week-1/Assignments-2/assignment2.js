@@ -11,18 +11,9 @@ function countAandB (input){
 
 function toNumber (input){
    let f=[]
-   for(let i=0;i<input.length;i++){
-    if(input[i]==='a'){
-        f.push(1)
-    } else if(input[i]==='b'){
-        f.push(2)
-    } else if(input[i]==='c'){
-        f.push(3)
-    }else if(input[i]==='d'){
-        f.push(4)
-    }else if(input[i]==='e'){
-        f.push(5)
-    }
+   for(let i=0; i<input.length;i++){
+         a=input[i].charCodeAt()-96
+         f.push(a)
    }
    return f
 }
