@@ -1,10 +1,11 @@
 function avg(data){
     let f=data.products
+    let c=data.size
     let count=0
     for(i=0;i<f.length;i++){
         count+=f[i].price
     }
-    return count/3
+    return count/c
 
 }
 
