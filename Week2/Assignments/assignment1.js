@@ -3,7 +3,7 @@ let close=document.querySelector(".close")
 
 title.addEventListener("click",()=>
 { 
-    title.textContent='Have a GoodTime!';
+    title.textContent='Have a Good Time!';
 }  
 )
 
