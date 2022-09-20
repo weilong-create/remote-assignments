@@ -1,48 +1,65 @@
-.container{
-    padding: 0px;
-	background-color:#ebebff;
-    width: 100%;
-    display:flex;
+body {
+	font-family: 'Varela Round', sans-serif;
+	color: #3a3a3a;
+	margin: 0;
 }
 
-.item1{
-   flex:1;
-   /* 可以讓第一個item靠左對齊 */
-   color:black;
-   font-size: 25px;
-   padding: 0px;
-   padding-left: 10px;
-   margin:5px;
+/* 導航區塊 ------------------------*/
+.main-nav {
+	margin-top: 5px;
 }
-.item2{
-    font-size: 15px;
-    /* margin-left: auto; */
-    color:black;
-    padding: 5px;
-    /* padding-right: 10px; */
-    margin:10px;
- }
+.logo a,.main-nav a {
+	text-align: center;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: 20px;
+	color: #3acec2;
+    /* 轉換大小寫 */
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+    /* 滑鼠觸碰轉換顏色 */
+	color: #093a58;
+}
 
+ul {
+    margin: 0;
+    padding: 0;
+    /* 刪除格式 */
+    list-style: none;
+}
+
+img{
+    max-width: 50px;
+    padding-top: 5px;
+}
+
+a {
+    /* 讓字的底線消除 */
+	text-decoration: none;
+    color: #093a58;
+}
+
+/* welcome---------------- */
 .p1{
-    background-color: #ebffff;
+    background-color: #4FD5D6;
     text-align: center;
     /* 也可以用padding寫法讓高度置中 */
     line-height: 100px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    font-size: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 0px;
-    margin-bottom: 0PX;
-    display: block;
 }
 
+/*   section titile   */
 .p2{
     text-align: center;
     line-height: 100px;
     font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 0PX;
+
 }
 /* 四個方塊 */
 .content{
@@ -52,26 +69,21 @@
 }
 /* 第一個方框 */
 .name1{
-    color: #fff;
+    
 	margin: 5px;
     padding: 5px;	
-	background: #3db5da;
+	background: #edf4f7;
     width:300px;
 }
 
 .name2{
-    color: #fff;
 	margin: 5px;
     padding: 5px;	
-	background: #3db5da;
+	background: #edf4f7;
     width:300px;
 
 }
-
-.btn-toggle:hover {
-    background-color: var(--color-hide-dark);
-  }
-
+/* 按鈕 */
 .container2{
     display: flex;
     justify-content:center;
@@ -81,16 +93,19 @@
 button {
     color:black;
     font-size: 1em;
-    padding: 1em;
+    padding: 0.5em;
     background-color: var(--color-add);
     border: none;
     cursor: pointer;
     background-color: aquamarine;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-img{
-    width: 30px;
-    height:30px;
+button:hover {
+	border: solid 2px grey;
 }
+
+/* 第二區塊 */
 
 .list{
      display: none;
