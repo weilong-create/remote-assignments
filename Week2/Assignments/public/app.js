@@ -7,7 +7,7 @@ button.addEventListener("click",function(){
     var xhr=new XMLHttpRequest();
     xhr.onreadystatechange=function(){
     if(xhr.readyState===4 && xhr.status===200){
-    document.getElementById('result').innerHTML=`result:${xhr.responseText}`
+    document.getElementById('result').innerHTML=`Result : ${xhr.responseText}`
     }
     }
     xhr.open('GET',`http://localhost:3000/data?number=${num}`)
