@@ -1,0 +1,20 @@
+@media (min-width: 769px) {
+    /*  main nav也要改變，這樣ul裡的list才會跟著一起改   */
+        .main-header,.main-nav{
+            display:flex
+    }
+        .main-header{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    /* 原來用兩個container可以做到space - between 做出我們一般網站看到的title */
+@media (min-width: 1025px) {
+    .main-header{
+        max-width: 80%;
+        margin:0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }     
+    }
+        
